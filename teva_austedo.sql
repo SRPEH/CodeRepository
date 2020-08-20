@@ -1,0 +1,28 @@
+CREATE TABLE [teva].[teva_austedo](
+	[NPI] [varchar](700) NULL,
+	[First Name] [varchar](700) NULL,
+	[Last Name] [varchar](700) NULL,
+	[Address Line 1] [varchar](700) NULL,
+	[Address Line 2] [varchar](700) NULL,
+	[City] [varchar](700) NULL,
+	[State] [varchar](700) NULL,
+	[Zip Code] [varchar](700) NULL,
+	[Profession] [varchar](700) NULL,
+	[Specialty] [varchar](700) NULL,
+	[Vendor] [varchar](700) NULL,
+	[Brand Name] [varchar](700) NULL,
+	[Indication] [varchar](700) NULL,
+	[Tactic Name] [varchar](700) NULL,
+	[Creative Name] [varchar](700) NULL,
+	[Email Campaign Name] [varchar](700) NULL,
+	[Subject Line] [varchar](700) NULL,
+	[Placement] [varchar](700) NULL,
+	[Banner Size] [varchar](700) NULL,
+	[Activity Timestamp] [varchar](700) NULL,
+	[Activity Type] [varchar](700) NULL,
+	[URL] [varchar](700) NULL,
+	[Description of Link Clicked] [varchar](700) NULL,
+	[Device Type] [varchar](700) NULL,
+) ON [PRIMARY]
+
+GO
